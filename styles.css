@@ -1,0 +1,53 @@
+body{
+    background-color:#e30b5d;
+}
+
+h1{
+    color:#000000;
+    text-align:center;
+    font-size:40px;
+     font-family: 'Lobster', cursive;
+}
+
+h2{
+ color:#FFFFF0;
+    text-align:center;
+    font-size:40px;
+     font-family:'Courgette', cursive;
+
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;    
+}
+
+img {
+    height: 400px;
+    width: 600px;
+    display: none;
+    /* Hide all the images on page load */
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img.default {
+    display: block;
+    /* Show default image on page load */
+}
+
+h3{
+color:#006994;
+    text-align:center;
+    font-size:30px;
+    font-family: 'Josefin Slab', serif;
+}
